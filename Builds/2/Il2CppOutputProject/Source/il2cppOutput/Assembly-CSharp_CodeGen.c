@@ -1,0 +1,283 @@
+﻿#include "il2cpp-config.h"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+
+
+
+// 0x00000001 System.Void CameraController::SetCamera(UnityEngine.GameObject)
+extern void CameraController_SetCamera_mECB961244E73B5C66BFE79162757FC04A049C2BE ();
+// 0x00000002 System.Void CameraController::Zoom()
+extern void CameraController_Zoom_mB52A9EA43A96EA4B9B0D8DC68EF6DA1D1761A767 ();
+// 0x00000003 System.Void CameraController::Rotate()
+extern void CameraController_Rotate_m991A37F1F63BA3F6A5E64FE5329DF6050791C28C ();
+// 0x00000004 System.Void CameraController::Update()
+extern void CameraController_Update_mF9389781F49F799A0B3990CF92E8F4DDB623A23D ();
+// 0x00000005 System.Void CameraController::.ctor()
+extern void CameraController__ctor_m26700AA94C99B3503D53C09C5A658C130CD41674 ();
+// 0x00000006 System.Void GUIManager::Start()
+extern void GUIManager_Start_mEF6A06758934BB316562F00E7D6CFBC84E97AD3B ();
+// 0x00000007 System.Void GUIManager::Init()
+extern void GUIManager_Init_m6F7B018ED04057D20201813C4DF3AF022BD46232 ();
+// 0x00000008 System.Void GUIManager::SetLabel(System.String,System.String)
+extern void GUIManager_SetLabel_mC3452AC191ADA0327BED672F26407F81F2EC5A62 ();
+// 0x00000009 System.Void GUIManager::CreateCamera()
+extern void GUIManager_CreateCamera_mD688D9AB816255748452C64CBEB5E88D0604371D ();
+// 0x0000000A System.Void GUIManager::DisplayCameraGUI(System.Boolean)
+extern void GUIManager_DisplayCameraGUI_m50BADDC571D395A079FEA4CB4BCB967EEB4DF667 ();
+// 0x0000000B UnityEngine.Camera GUIManager::GetWorldCamera()
+extern void GUIManager_GetWorldCamera_mFA4FFA36F0F75842F07816EA7FCD5EB1177A0519 ();
+// 0x0000000C System.Void GUIManager::SetCameraView(UnityEngine.RenderTexture)
+extern void GUIManager_SetCameraView_mBAB8DB90A74733A20999B39C3DA5BB4EA9569435 ();
+// 0x0000000D UnityEngine.GameObject GUIManager::CreateGUIPanel()
+extern void GUIManager_CreateGUIPanel_m7BB4EB547F8961F1CBB5A6BDE5AF8B798C14490D ();
+// 0x0000000E System.Void GUIManager::AddPanelHandler()
+extern void GUIManager_AddPanelHandler_m3BB58209C9579FFC56DBD4E1400411D8FC3D2FDA ();
+// 0x0000000F System.Void GUIManager::ImportFBX()
+extern void GUIManager_ImportFBX_mB177FBE40497EAC60A0AA9AEBC068D716A23E1DC ();
+// 0x00000010 System.Void GUIManager::OpenFile(System.Object,System.ComponentModel.CancelEventArgs)
+extern void GUIManager_OpenFile_m400F8DDA9F8DBD0E1C09B0452AF93A8DDF2BE76B ();
+// 0x00000011 UnityEngine.GameObject GUIManager::InstantiateGUIPanel()
+extern void GUIManager_InstantiateGUIPanel_m99116EFAC715C02D5964E777F521C4E7CA3F9FDE ();
+// 0x00000012 System.Void GUIManager::SwitchToWorldGUI()
+extern void GUIManager_SwitchToWorldGUI_m7C96B5F07C033AC1427C0E5E840772731A109C8D ();
+// 0x00000013 System.Void GUIManager::SwitchToSBGUI()
+extern void GUIManager_SwitchToSBGUI_m5B195AADEDB528A2D11889369249C4A7D0C8AFA8 ();
+// 0x00000014 System.Void GUIManager::SwitchGUIMode()
+extern void GUIManager_SwitchGUIMode_mA9D3C22F86B579DAF4A44011259BA53E1439AB23 ();
+// 0x00000015 System.Void GUIManager::Update()
+extern void GUIManager_Update_m4E3423BDD58C4880FE25D8CFBF10FDF3C1E1AE8A ();
+// 0x00000016 System.Void GUIManager::.ctor()
+extern void GUIManager__ctor_m30C5D01957266318C375ACE7694D91F745E557C5 ();
+// 0x00000017 System.Void Panel::Init(Sequence,UnityEngine.GameObject,System.Int32)
+extern void Panel_Init_m1C72B8B3DB84A19125C56B0E74B44A6045EE1B91 ();
+// 0x00000018 System.Void Panel::Update()
+extern void Panel_Update_m1C769148312508B5CEC29D020259C84A76708669 ();
+// 0x00000019 System.Void Panel::OpenScene()
+extern void Panel_OpenScene_m41AF368FD8343FC4A4E7AD66D3E4B0541A7BC173 ();
+// 0x0000001A System.String Panel::GetIDPanel()
+extern void Panel_GetIDPanel_m74BB264714F7F041269D79CFBE6051A0EF902448 ();
+// 0x0000001B System.Void Panel::AddCamera()
+extern void Panel_AddCamera_m516FAFCC67BD461358969FC61F9DF76549AC32B2 ();
+// 0x0000001C System.Void Panel::.ctor()
+extern void Panel__ctor_m26C408CAF70FE5A533D76C547A239B2AE812E295 ();
+// 0x0000001D System.Void PanelCamera::Start()
+extern void PanelCamera_Start_m439ACD429F72F65FBD2F38947FE568630BD3C107 ();
+// 0x0000001E System.Void PanelCamera::InitRendering()
+extern void PanelCamera_InitRendering_m4B134A2EAA234D766DEC095FF5BAE7C8D5014949 ();
+// 0x0000001F System.Void PanelCamera::Update()
+extern void PanelCamera_Update_mAC24B9FA7F5264B01CBAB7AD401DA56FEC4ECFBE ();
+// 0x00000020 UnityEngine.RenderTexture PanelCamera::GetRenderView()
+extern void PanelCamera_GetRenderView_mCD4C8C614B75CF01D99B0CD6834171B1F51C41BF ();
+// 0x00000021 System.Void PanelCamera::.ctor()
+extern void PanelCamera__ctor_m015751328CB7A61450583C42AA994AD0DA7756AF ();
+// 0x00000022 Sequence Scene::get_CurrentSequence()
+extern void Scene_get_CurrentSequence_mBF3858D19EE0A6138270528E3A9D7D3B9FACC59B ();
+// 0x00000023 System.Void Scene::set_CurrentSequence(Sequence)
+extern void Scene_set_CurrentSequence_m21D9C72E7ECA838F8FBE6059FAA1B1C2A5B3135D ();
+// 0x00000024 System.Void Scene::Init(System.Int32)
+extern void Scene_Init_m3042706C38B49C308340D53FE30B51403E0C0072 ();
+// 0x00000025 System.Void Scene::AddSequence()
+extern void Scene_AddSequence_mAE7FE552D5251A56373890E7C30766A5937CAA77 ();
+// 0x00000026 System.String Scene::GetNum()
+extern void Scene_GetNum_m7792B6F27D33463B6F4094D18EA893A6BC814D17 ();
+// 0x00000027 Sequence Scene::CreateSeq()
+extern void Scene_CreateSeq_m2EC407A501C00A0D55421947D474124658598537 ();
+// 0x00000028 System.Void Scene::.ctor()
+extern void Scene__ctor_m10D4640558085115797C14F469C7BF318A79E8A2 ();
+// 0x00000029 Panel Sequence::get_CurrentPanel()
+extern void Sequence_get_CurrentPanel_mDC89129CED7502269A876F8A1693AC2C195AD26B ();
+// 0x0000002A System.Void Sequence::set_CurrentPanel(Panel)
+extern void Sequence_set_CurrentPanel_mE21F07581A3ED139E86179323131B1A229B1D5D7 ();
+// 0x0000002B System.Int32 Sequence::get_PanelsCount()
+extern void Sequence_get_PanelsCount_mAF7297A13DD8C709B6A7789334A865412ACDD30F ();
+// 0x0000002C System.Void Sequence::Init(Scene,System.Int32)
+extern void Sequence_Init_m1C278A8480A8D172BE90E20460CB69E91A8F28A3 ();
+// 0x0000002D System.Void Sequence::AddPanel(Panel)
+extern void Sequence_AddPanel_m97D59F7B2E493DDE3B1BAF0E82998BB055C500C6 ();
+// 0x0000002E System.String Sequence::GetNum()
+extern void Sequence_GetNum_mBE02ED7EE934417B4B49976BB959F618302E8322 ();
+// 0x0000002F System.String Sequence::GetSceneNum()
+extern void Sequence_GetSceneNum_m0523D4EFA4B9FA4D6939F901FAB0EF1CA7724023 ();
+// 0x00000030 System.Void Sequence::.ctor()
+extern void Sequence__ctor_mF60998D3FF04A4CEE50157FA3456546321D92252 ();
+// 0x00000031 System.Void StoryboardManager::Start()
+extern void StoryboardManager_Start_m9BF8B1BF7208E67FB7FFC41E3FEB0A715026C894 ();
+// 0x00000032 System.Void StoryboardManager::Init()
+extern void StoryboardManager_Init_m188ADF44CBA2E76C2E3B7FF347D6FBE6026E628E ();
+// 0x00000033 System.Void StoryboardManager::Update()
+extern void StoryboardManager_Update_m0D0EC956C44640454E511F46B5A39AE60A71B5EF ();
+// 0x00000034 System.Void StoryboardManager::AddScene()
+extern void StoryboardManager_AddScene_m1CC872D5E42DB6ECA2B4D79770E3B6DC59D5A6E4 ();
+// 0x00000035 System.Void StoryboardManager::AddSequence()
+extern void StoryboardManager_AddSequence_m03B68AA8F0CC0799B1FA42E07B734CD2583569C3 ();
+// 0x00000036 System.Void StoryboardManager::AddPanel()
+extern void StoryboardManager_AddPanel_mA6EF12E4FE41DF27412F417178A32C62F70625E0 ();
+// 0x00000037 Panel StoryboardManager::CreatePanel(UnityEngine.GameObject)
+extern void StoryboardManager_CreatePanel_m01ADF24CDB6F02C4C5C138E157B04EE603B46BA6 ();
+// 0x00000038 Scene StoryboardManager::CreateScene()
+extern void StoryboardManager_CreateScene_m7E5564FFDF43F2431833EFDE2D78822806412D2F ();
+// 0x00000039 System.Void StoryboardManager::CreateCamera()
+extern void StoryboardManager_CreateCamera_m6030F4C7242463440F7D28CC7F36F23DA159A11C ();
+// 0x0000003A System.Void StoryboardManager::SetCurrentPanel(Panel)
+extern void StoryboardManager_SetCurrentPanel_m5F1BD2A4F7BFC3D1347C3ACD0A947523C1D68AD0 ();
+// 0x0000003B System.String StoryboardManager::GetCurrentPanelID()
+extern void StoryboardManager_GetCurrentPanelID_m655DB2882F73F972A2FE2F5D5FABC040EC25A14E ();
+// 0x0000003C System.Void StoryboardManager::.ctor()
+extern void StoryboardManager__ctor_m8F38EC4DCF3C6E78937CEAC625E10BF6DEA24457 ();
+static Il2CppMethodPointer s_methodPointers[60] = 
+{
+	CameraController_SetCamera_mECB961244E73B5C66BFE79162757FC04A049C2BE,
+	CameraController_Zoom_mB52A9EA43A96EA4B9B0D8DC68EF6DA1D1761A767,
+	CameraController_Rotate_m991A37F1F63BA3F6A5E64FE5329DF6050791C28C,
+	CameraController_Update_mF9389781F49F799A0B3990CF92E8F4DDB623A23D,
+	CameraController__ctor_m26700AA94C99B3503D53C09C5A658C130CD41674,
+	GUIManager_Start_mEF6A06758934BB316562F00E7D6CFBC84E97AD3B,
+	GUIManager_Init_m6F7B018ED04057D20201813C4DF3AF022BD46232,
+	GUIManager_SetLabel_mC3452AC191ADA0327BED672F26407F81F2EC5A62,
+	GUIManager_CreateCamera_mD688D9AB816255748452C64CBEB5E88D0604371D,
+	GUIManager_DisplayCameraGUI_m50BADDC571D395A079FEA4CB4BCB967EEB4DF667,
+	GUIManager_GetWorldCamera_mFA4FFA36F0F75842F07816EA7FCD5EB1177A0519,
+	GUIManager_SetCameraView_mBAB8DB90A74733A20999B39C3DA5BB4EA9569435,
+	GUIManager_CreateGUIPanel_m7BB4EB547F8961F1CBB5A6BDE5AF8B798C14490D,
+	GUIManager_AddPanelHandler_m3BB58209C9579FFC56DBD4E1400411D8FC3D2FDA,
+	GUIManager_ImportFBX_mB177FBE40497EAC60A0AA9AEBC068D716A23E1DC,
+	GUIManager_OpenFile_m400F8DDA9F8DBD0E1C09B0452AF93A8DDF2BE76B,
+	GUIManager_InstantiateGUIPanel_m99116EFAC715C02D5964E777F521C4E7CA3F9FDE,
+	GUIManager_SwitchToWorldGUI_m7C96B5F07C033AC1427C0E5E840772731A109C8D,
+	GUIManager_SwitchToSBGUI_m5B195AADEDB528A2D11889369249C4A7D0C8AFA8,
+	GUIManager_SwitchGUIMode_mA9D3C22F86B579DAF4A44011259BA53E1439AB23,
+	GUIManager_Update_m4E3423BDD58C4880FE25D8CFBF10FDF3C1E1AE8A,
+	GUIManager__ctor_m30C5D01957266318C375ACE7694D91F745E557C5,
+	Panel_Init_m1C72B8B3DB84A19125C56B0E74B44A6045EE1B91,
+	Panel_Update_m1C769148312508B5CEC29D020259C84A76708669,
+	Panel_OpenScene_m41AF368FD8343FC4A4E7AD66D3E4B0541A7BC173,
+	Panel_GetIDPanel_m74BB264714F7F041269D79CFBE6051A0EF902448,
+	Panel_AddCamera_m516FAFCC67BD461358969FC61F9DF76549AC32B2,
+	Panel__ctor_m26C408CAF70FE5A533D76C547A239B2AE812E295,
+	PanelCamera_Start_m439ACD429F72F65FBD2F38947FE568630BD3C107,
+	PanelCamera_InitRendering_m4B134A2EAA234D766DEC095FF5BAE7C8D5014949,
+	PanelCamera_Update_mAC24B9FA7F5264B01CBAB7AD401DA56FEC4ECFBE,
+	PanelCamera_GetRenderView_mCD4C8C614B75CF01D99B0CD6834171B1F51C41BF,
+	PanelCamera__ctor_m015751328CB7A61450583C42AA994AD0DA7756AF,
+	Scene_get_CurrentSequence_mBF3858D19EE0A6138270528E3A9D7D3B9FACC59B,
+	Scene_set_CurrentSequence_m21D9C72E7ECA838F8FBE6059FAA1B1C2A5B3135D,
+	Scene_Init_m3042706C38B49C308340D53FE30B51403E0C0072,
+	Scene_AddSequence_mAE7FE552D5251A56373890E7C30766A5937CAA77,
+	Scene_GetNum_m7792B6F27D33463B6F4094D18EA893A6BC814D17,
+	Scene_CreateSeq_m2EC407A501C00A0D55421947D474124658598537,
+	Scene__ctor_m10D4640558085115797C14F469C7BF318A79E8A2,
+	Sequence_get_CurrentPanel_mDC89129CED7502269A876F8A1693AC2C195AD26B,
+	Sequence_set_CurrentPanel_mE21F07581A3ED139E86179323131B1A229B1D5D7,
+	Sequence_get_PanelsCount_mAF7297A13DD8C709B6A7789334A865412ACDD30F,
+	Sequence_Init_m1C278A8480A8D172BE90E20460CB69E91A8F28A3,
+	Sequence_AddPanel_m97D59F7B2E493DDE3B1BAF0E82998BB055C500C6,
+	Sequence_GetNum_mBE02ED7EE934417B4B49976BB959F618302E8322,
+	Sequence_GetSceneNum_m0523D4EFA4B9FA4D6939F901FAB0EF1CA7724023,
+	Sequence__ctor_mF60998D3FF04A4CEE50157FA3456546321D92252,
+	StoryboardManager_Start_m9BF8B1BF7208E67FB7FFC41E3FEB0A715026C894,
+	StoryboardManager_Init_m188ADF44CBA2E76C2E3B7FF347D6FBE6026E628E,
+	StoryboardManager_Update_m0D0EC956C44640454E511F46B5A39AE60A71B5EF,
+	StoryboardManager_AddScene_m1CC872D5E42DB6ECA2B4D79770E3B6DC59D5A6E4,
+	StoryboardManager_AddSequence_m03B68AA8F0CC0799B1FA42E07B734CD2583569C3,
+	StoryboardManager_AddPanel_mA6EF12E4FE41DF27412F417178A32C62F70625E0,
+	StoryboardManager_CreatePanel_m01ADF24CDB6F02C4C5C138E157B04EE603B46BA6,
+	StoryboardManager_CreateScene_m7E5564FFDF43F2431833EFDE2D78822806412D2F,
+	StoryboardManager_CreateCamera_m6030F4C7242463440F7D28CC7F36F23DA159A11C,
+	StoryboardManager_SetCurrentPanel_m5F1BD2A4F7BFC3D1347C3ACD0A947523C1D68AD0,
+	StoryboardManager_GetCurrentPanelID_m655DB2882F73F972A2FE2F5D5FABC040EC25A14E,
+	StoryboardManager__ctor_m8F38EC4DCF3C6E78937CEAC625E10BF6DEA24457,
+};
+static const int32_t s_InvokerIndices[60] = 
+{
+	26,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	27,
+	23,
+	31,
+	14,
+	26,
+	14,
+	23,
+	23,
+	27,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	104,
+	23,
+	23,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	14,
+	23,
+	14,
+	26,
+	32,
+	23,
+	14,
+	14,
+	23,
+	14,
+	26,
+	10,
+	143,
+	26,
+	14,
+	14,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	23,
+	28,
+	14,
+	23,
+	26,
+	14,
+	23,
+};
+extern const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpCodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	60,
+	s_methodPointers,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+};
