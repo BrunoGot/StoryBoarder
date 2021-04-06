@@ -13,7 +13,7 @@ public class StoryboardManager : MonoBehaviour
     //gui link (will be a singleton)
     private GUIManager m_guiManager;
     private GameObject m_worldEnv;//the world envornement
-    private List<Scene> m_scenes;
+    private List<Scene> m_scenes; //to convert in list of sequences
     private Scene m_currentScene;
     private Panel m_currentPanel;
 

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/*class for the camera associated to the panel*/
+
 [RequireComponent(typeof(Camera))]
 public class PanelCamera : MonoBehaviour
 {
@@ -28,6 +30,7 @@ public class PanelCamera : MonoBehaviour
 
         m_renderTexture = new RenderTexture(1920,1080,24,RenderTextureFormat.ARGB32);
         m_renderTexture.Create();
+        m_renderTexture.name = m_camera.name;
 
         m_camera.targetTexture = m_renderTexture;
 
@@ -42,6 +45,7 @@ public class PanelCamera : MonoBehaviour
 
     public RenderTexture GetRenderView()
     {
+        Debug.Log("return texture " + m_renderTexture.name);
         return m_renderTexture;
     }
 

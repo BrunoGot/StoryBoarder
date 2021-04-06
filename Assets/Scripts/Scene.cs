@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+/*PB : Sequence and scenes elements are inverted*/
+
 public class Scene : MonoBehaviour
 {
     private List<Sequence> m_sequences;

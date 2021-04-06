@@ -8,9 +8,12 @@ public class Panel : MonoBehaviour
     GUIManager m_GUIManager;
     StoryboardManager m_sotryBoardManager;
     Sequence m_sequence;
-    PanelCamera m_mainCamera;
+    List<PanelCamera> m_cameras;//get list of all cameras recorded. May be useful to record differents point of view and set redo possibility //PanelCamera m_mainCamera;
     GameObject m_previewButton;
     private int m_panelNB;
+
+    //properties
+    public PanelCamera Camera { get; private set; }
 
     public void Init(Sequence _seq, GameObject _panelGUI, int _panelNb) //get a GUI separate of this script and link the handlers during initialization (kind of MVC structure)
     {
@@ -22,6 +25,7 @@ public class Panel : MonoBehaviour
         m_previewButton = _panelGUI.transform.Find("Preview").gameObject;
         m_previewButton.GetComponent<Button>().onClick.AddListener(OpenScene);
         m_panelNB = _panelNb;
+        m_cameras = new List<PanelCamera>();
     }
 
     // Update is called once per frame
@@ -29,11 +33,11 @@ public class Panel : MonoBehaviour
     {
         Debug.Log("update camera ");
         Debug.Log("CurrentPanel = " + m_sequence.CurrentPanel);
-        if (m_mainCamera != null && m_sotryBoardManager.GetCurrentPanelID()==GetIDPanel())
+        if (Camera != null && m_sotryBoardManager.GetCurrentPanelID()==GetIDPanel())
         {
             Debug.Log("update camera ");
-            m_mainCamera.transform.position = m_GUIManager.GetWorldCamera().transform.position;
-            m_mainCamera.transform.rotation = m_GUIManager.GetWorldCamera().transform.rotation;
+            Camera.transform.position = m_GUIManager.GetWorldCamera().transform.position;
+            Camera.transform.rotation = m_GUIManager.GetWorldCamera().transform.rotation;
         }
     }
 
@@ -44,25 +48,35 @@ public class Panel : MonoBehaviour
         m_GUIManager.SwitchToWorldGUI();
         m_GUIManager.SetLabel(m_sequence.GetNum(), m_sequence.GetSceneNum());
         m_sotryBoardManager.SetCurrentPanel(this);
+        if (Camera != null)
+        {
+            m_GUIManager.GetWorldCamera().transform.position = Camera.transform.position;
+            m_GUIManager.GetWorldCamera().transform.rotation = Camera.transform.rotation;
+        }
     }
 
     public string GetIDPanel()
     {
         return m_sequence.GetSceneNum() + m_sequence.GetNum() + m_panelNB.ToString();
     }
+
     public void AddCamera()
     {
-        GameObject go = new GameObject("Camera");
-        m_mainCamera = go.AddComponent<PanelCamera>();
-        m_mainCamera.transform.SetParent(m_sequence.transform);
-        m_mainCamera.InitRendering();
+        if (Camera == null)
+        {
+            GameObject go = new GameObject("Camera");
+            Camera = go.AddComponent<PanelCamera>();
+            Camera.transform.SetParent(m_sequence.transform);
+            m_cameras.Add(Camera);
+        }
+        Camera.InitRendering();
 
         //new WaitForSeconds(1f);
         //m_mainCamera.Render();
-        Debug.Log("m_mainCamera.GetRenderView() = " + m_mainCamera.GetRenderView());
-        m_GUIManager.SetCameraView(m_mainCamera.GetRenderView());
-        m_previewButton.GetComponent<RawImage>().texture = m_mainCamera.GetRenderView();
-      //  m_tkScreen = true;
+        Debug.Log("Camera.GetRenderView() = " + Camera.GetRenderView());
+        m_GUIManager.SetCameraView(Camera.GetRenderView());
+        m_previewButton.GetComponent<RawImage>().texture = Camera.GetRenderView();
+        //  m_tkScreen = true;
     }
 
   /*  private void OnPostRender()

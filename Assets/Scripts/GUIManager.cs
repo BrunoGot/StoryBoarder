@@ -7,6 +7,7 @@ using System;
 using System.Runtime.InteropServices;
 
 //to do make it as a singleton
+/*Manage the World GUI and dashboard GUI*/
 public class GUIManager : MonoBehaviour
 {
     private GameObject m_storyboardGUI;
@@ -87,6 +88,7 @@ public class GUIManager : MonoBehaviour
         return m_renderTexture;
     }
     */
+    //Display the camera view as texture in the GUI
     public void SetCameraView(RenderTexture _rTexture)
     {
         m_renderTexture = _rTexture;
